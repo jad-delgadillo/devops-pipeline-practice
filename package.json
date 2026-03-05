@@ -1,0 +1,32 @@
+{
+  "name": "devops-pipeline-practice",
+  "version": "1.0.0",
+  "description": "Small Task API with CI/CD pipeline practice",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "test": "jest --runInBand",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "devops",
+    "ci-cd",
+    "docker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
