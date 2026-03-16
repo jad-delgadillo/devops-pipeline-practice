@@ -2,6 +2,8 @@
 
 A small interview-ready Task API built with Node.js 20, Express, CommonJS, Jest/Supertest, Docker, and GitHub Actions CI/CD.
 
+For a full beginner-friendly walkthrough, see [PROJECT_GUIDE.md](./PROJECT_GUIDE.md).
+
 ## Tech Stack
 
 - Node.js 20 (CommonJS)
@@ -114,4 +116,3 @@ git push origin v0.1.0
 - CI (Continuous Integration) validates quality on each PR and on `main` by running install, lint, tests, and a Docker build.
 - CD (Continuous Delivery for container publishing) is implemented with tag-based releases that publish versioned and `latest` images to GHCR.
 - This pipeline ensures code correctness before merge and automates packaging for deployment after a release tag.
-# devops-pipeline-practice
